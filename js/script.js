@@ -85,6 +85,7 @@ dots.forEach(dot => {
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
 // Testimonials section part end
+
 /* gallery section part start */
 document.querySelectorAll('.gallery-item').forEach(item => {
   item.addEventListener('click', () => {
