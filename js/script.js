@@ -85,3 +85,21 @@ dots.forEach(dot => {
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
 // Testimonials section part end
+/* gallery section part start */
+document.querySelectorAll('.gallery-item').forEach(item => {
+  item.addEventListener('click', () => {
+      alert('You clicked on an image!');
+  });
+});
+ /* gallery section part end */
+
+// Contact Us section part start
+document.getElementById("contactBtn").addEventListener("click", () => {
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+
+
+// Contact Us section part end
